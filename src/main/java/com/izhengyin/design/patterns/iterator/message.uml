@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.izhengyin.design.patterns.iterator.message</OriginalElement>
+  <nodes>
+    <node x="312.0" y="145.0">com.izhengyin.design.patterns.iterator.message.MessageBox</node>
+    <node x="244.0" y="520.0">com.izhengyin.design.patterns.iterator.message.MessageBoxIterator</node>
+    <node x="236.25" y="0.0">com.izhengyin.design.patterns.iterator.message.Aggregate</node>
+    <node x="0.0" y="101.0">com.izhengyin.design.patterns.iterator.message.MessageBoxForArray</node>
+    <node x="0.0" y="520.0">com.izhengyin.design.patterns.iterator.message.MessageBoxIteratorForArray</node>
+    <node x="0.0" y="706.0">com.izhengyin.design.patterns.iterator.message.Test</node>
+    <node x="490.0" y="397.0">com.izhengyin.design.patterns.iterator.message.Message</node>
+    <node x="127.25" y="397.0">com.izhengyin.design.patterns.iterator.message.Iterator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.izhengyin.design.patterns.iterator.message.MessageBoxForArray" target="com.izhengyin.design.patterns.iterator.message.Aggregate">
+      <point x="0.0" y="-125.5" />
+      <point x="146.0" y="76.0" />
+      <point x="279.25" y="76.0" />
+      <point x="-43.0" y="25.5" />
+    </edge>
+    <edge source="com.izhengyin.design.patterns.iterator.message.MessageBox" target="com.izhengyin.design.patterns.iterator.message.Aggregate">
+      <point x="0.0" y="-81.5" />
+      <point x="498.5" y="76.0" />
+      <point x="365.25" y="76.0" />
+      <point x="43.0" y="25.5" />
+    </edge>
+    <edge source="com.izhengyin.design.patterns.iterator.message.MessageBoxIteratorForArray" target="com.izhengyin.design.patterns.iterator.message.Iterator">
+      <point x="0.0" y="-70.5" />
+      <point x="112.0" y="495.0" />
+      <point x="177.75" y="495.0" />
+      <point x="-50.5" y="36.5" />
+    </edge>
+    <edge source="com.izhengyin.design.patterns.iterator.message.MessageBoxIterator" target="com.izhengyin.design.patterns.iterator.message.Iterator">
+      <point x="0.0" y="-70.5" />
+      <point x="344.5" y="495.0" />
+      <point x="278.75" y="495.0" />
+      <point x="50.5" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="207.5" y="288.0" />
+  <SelectedNodes>
+    <node>com.izhengyin.design.patterns.iterator.message.Aggregate</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

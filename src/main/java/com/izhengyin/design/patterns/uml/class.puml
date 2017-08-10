@@ -1,0 +1,37 @@
+@startuml
+
+abstract class AbstractList {
+    hello(String name)
+}
+
+abstract AbstractCollection {
+
+}
+
+interface List {
+    hello(String name)
+}
+
+interface Collection {
+
+}
+
+class ArrayList {
+    Object[] elementData
+    size()
+}
+
+enum TimeUnit {
+    Integer DAYS
+    Integer HOURS
+    Integer MINUTES
+}
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+@enduml

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.izhengyin.design.patterns.uml.java_list_uml</OriginalElement>
+  <nodes>
+    <node x="50.25" y="237.0">com.izhengyin.design.patterns.uml.java_list_uml.AbstractList</node>
+    <node x="102.50000000000001" y="0.0">com.izhengyin.design.patterns.uml.java_list_uml.Iterator</node>
+    <node x="297.0" y="0.0">com.izhengyin.design.patterns.uml.java_list_uml.HashSet</node>
+    <node x="121.62500000000001" y="316.0">com.izhengyin.design.patterns.uml.java_list_uml.ArrayList</node>
+    <node x="182.0" y="158.0">com.izhengyin.design.patterns.uml.java_list_uml.List</node>
+    <node x="94.50000000000001" y="79.0">com.izhengyin.design.patterns.uml.java_list_uml.Collection</node>
+    <node x="0.0" y="158.0">com.izhengyin.design.patterns.uml.java_list_uml.AbstractCollection</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.izhengyin.design.patterns.uml.java_list_uml.AbstractList" target="com.izhengyin.design.patterns.uml.java_list_uml.AbstractCollection">
+      <point x="-30.75" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.izhengyin.design.patterns.uml.java_list_uml.Collection" target="com.izhengyin.design.patterns.uml.java_list_uml.Iterator">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.izhengyin.design.patterns.uml.java_list_uml.ArrayList" target="com.izhengyin.design.patterns.uml.java_list_uml.AbstractList">
+      <point x="-25.75" y="-14.5" />
+      <point x="147.375" y="291.0" />
+      <point x="111.75" y="291.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.izhengyin.design.patterns.uml.java_list_uml.List" target="com.izhengyin.design.patterns.uml.java_list_uml.Collection">
+      <point x="0.0" y="-14.5" />
+      <point x="217.0" y="133.0" />
+      <point x="176.25" y="133.0" />
+      <point x="27.25" y="14.5" />
+    </edge>
+    <edge source="com.izhengyin.design.patterns.uml.java_list_uml.AbstractList" target="com.izhengyin.design.patterns.uml.java_list_uml.List">
+      <point x="30.75" y="-14.5" />
+      <point x="142.5" y="212.0" />
+      <point x="199.5" y="212.0" />
+      <point x="-17.5" y="14.5" />
+    </edge>
+    <edge source="com.izhengyin.design.patterns.uml.java_list_uml.ArrayList" target="com.izhengyin.design.patterns.uml.java_list_uml.List">
+      <point x="25.75" y="-14.5" />
+      <point x="198.875" y="291.0" />
+      <point x="234.5" y="291.0" />
+      <point x="17.499999999999993" y="14.5" />
+    </edge>
+    <edge source="com.izhengyin.design.patterns.uml.java_list_uml.AbstractCollection" target="com.izhengyin.design.patterns.uml.java_list_uml.Collection">
+      <point x="0.0" y="-14.5" />
+      <point x="81.0" y="133.0" />
+      <point x="121.75000000000001" y="133.0" />
+      <point x="-27.25" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="198.5" y="172.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

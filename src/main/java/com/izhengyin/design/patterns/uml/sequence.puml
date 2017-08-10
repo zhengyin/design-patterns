@@ -1,0 +1,6 @@
+@startuml
+A -> B: A Request B
+B -> C: B Request C
+B <-- C: C Response B
+A <-- B: B Response A
+@enduml
