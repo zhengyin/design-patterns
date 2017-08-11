@@ -5,3 +5,4 @@
 * [Uml基础](/src/main/java/com/izhengyin/design/patterns/uml)
 * [Iterator pattern 迭代器模式](/src/main/java/com/izhengyin/design/patterns/iterator)
 * [Adapter pattern 适配器模式](/src/main/java/com/izhengyin/design/patterns/adapter)
+* [template method pattern 模板方法模式] (/src/main/java/com/izhengyin/design/patterns/template)
