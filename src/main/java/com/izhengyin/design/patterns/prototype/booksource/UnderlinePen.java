@@ -1,6 +1,7 @@
 package com.izhengyin.design.patterns.prototype.booksource;
 
-import framework.*;
+
+import com.izhengyin.design.patterns.prototype.booksource.framework.Product;
 
 public class UnderlinePen implements Product {
     private char ulchar;

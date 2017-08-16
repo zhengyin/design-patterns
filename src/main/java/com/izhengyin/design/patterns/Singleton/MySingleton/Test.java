@@ -1,7 +1,9 @@
 package com.izhengyin.design.patterns.Singleton.MySingleton;
 
-import com.izhengyin.effective.java.chapter2.item3.field.MySingleton2;
-import com.izhengyin.effective.java.chapter2.item3.serializable.MySingleton;
+
+
+import com.izhengyin.design.patterns.Singleton.MySingleton.field.MySingleton;
+import com.izhengyin.design.patterns.Singleton.MySingleton.field.MySingleton2;
 
 import java.io.*;
 
@@ -19,9 +21,9 @@ public class Test {
     }
 
     private static void testEnum(){
-        com.izhengyin.effective.java.chapter2.item3.enumeration.MySingleton mySingleton1 = com.izhengyin.effective.java.chapter2.item3.enumeration.MySingleton.INSTANCE;
+        MySingleton mySingleton1 = MySingleton.INSTANCE;
         mySingleton1.say();
-        com.izhengyin.effective.java.chapter2.item3.enumeration.MySingleton mySingleton2 = com.izhengyin.effective.java.chapter2.item3.enumeration.MySingleton.INSTANCE;
+        MySingleton mySingleton2 = MySingleton.INSTANCE;
         mySingleton2.say();
     }
 

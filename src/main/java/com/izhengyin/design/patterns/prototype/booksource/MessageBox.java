@@ -1,6 +1,6 @@
 package com.izhengyin.design.patterns.prototype.booksource;
 
-import framework.*;
+import com.izhengyin.design.patterns.prototype.booksource.framework.Product;
 
 public class MessageBox implements Product {
     private char decochar;

@@ -1,6 +1,8 @@
 package com.izhengyin.design.patterns.prototype.booksource;
 
-import framework.*;
+
+import com.izhengyin.design.patterns.prototype.booksource.framework.Manager;
+import com.izhengyin.design.patterns.prototype.booksource.framework.Product;
 
 public class Main {
     public static void main(String[] args) {
